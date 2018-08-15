@@ -1,0 +1,51 @@
+/* your styles go here */
+.upwork {
+  height: 60px;
+  /* width: 30px; */
+}
+
+.brand:hover {
+  color: #333;
+}
+
+.centering {
+  position: relative;
+}
+
+.header-centering {
+  margin-top: 80px;
+}
+
+.header-image {
+  height: 500px;
+}
+
+.features-icons {
+  height: 350px;
+}
+
+@media (max-width: 600px) {
+  .features-icons {
+    height: 250px;
+  }
+
+  .header-image {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .header-image {
+    display: none;
+  }
+}
+
+.tab-pane {
+  height: 530px;
+}
+
+.upwork:hover {
+  opacity: 0.5;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
